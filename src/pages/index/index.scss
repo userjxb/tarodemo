@@ -1,0 +1,46 @@
+.index {
+    .title {
+        width: 100%;
+        background-color: #ccc;
+        text-align: center;
+        font-size: 24PX;
+        height: 80px;
+        line-height: 80px;
+    }
+    .list-body {
+        margin-top: 10PX;
+        .list-items {
+            margin: 10PX 0;
+            padding: 10PX;
+            display: flex;
+            justify-content: space-between;
+            .list-left {
+                margin-right: 20PX;
+                .item-title {
+                    font-size: 20PX;
+                    margin-bottom: 10PX;
+                }
+                .item-des {
+                    font-size: 16PX;
+                }
+            }
+            .list-right {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                .img {
+                    width: 30PX;
+                    height: 30PX;
+                }
+            }
+        }
+    }
+    .btn-question {
+        background: #ff6700;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+}
