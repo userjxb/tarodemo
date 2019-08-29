@@ -1,5 +1,5 @@
 import Taro, { Component } from '@tarojs/taro'
-import { View, Text, Button } from '@tarojs/components'
+import { View, Text, Button, Image } from '@tarojs/components'
 import AddQuestion from './addQuestion';
 import yes from '../../assets/yes.png';
 import no from '../../assets/no.png';
